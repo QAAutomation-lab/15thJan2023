@@ -1,0 +1,215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user already in login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user login successfully with valid data",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click on navigation bar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "go to Marketing and select Leads",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-03T03:08:17.081Z",
+        "line": 17,
+        "name": "Create new lead with name as QA",
+        "description": "",
+        "id": "create-lead-in-vtiger-application;create-new-lead-with-name-as-\u003cfirstname\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on Add Leads button and enter firstname as QA ,last as Champak ,number as 123 and click on save button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on All link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "varify lead is created with Champak",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user already in login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user login successfully with valid data",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click on navigation bar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "go to Marketing and select Leads",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-03T03:08:17.211Z",
+        "line": 20,
+        "name": "Delete all leads",
+        "description": "",
+        "id": "create-lead-in-vtiger-application;delete-all-leads",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click on select all leads checkbox",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click on delete logo",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user will get a popup to comfirm deletion, select Yes",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "varify that all leads deleted",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Create lead in Vtiger application",
+    "description": "",
+    "id": "create-lead-in-vtiger-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VtigerLead.feature",
+    "tags": []
+  }
+]

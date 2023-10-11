@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.709">
+    <testcase classname="Create lead in Vtiger application" name="Create new lead with name as QA" time="0.045">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user already in login page............................................undefined
+And user login successfully with valid data.................................skipped
+And click on navigation bar.................................................skipped
+And go to Marketing and select Leads........................................skipped
+When click on Add Leads button and enter firstname as QA ,last as Champak ,number as 123 and click on save button.skipped
+And click on All link.......................................................skipped
+Then varify lead is created with Champak....................................skipped
+And close the browser.......................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Create lead in Vtiger application" name="Delete all leads" time="0.032">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user already in login page............................................undefined
+And user login successfully with valid data.................................skipped
+And click on navigation bar.................................................skipped
+And go to Marketing and select Leads........................................skipped
+When click on select all leads checkbox.....................................skipped
+And click on delete logo....................................................skipped
+And user will get a popup to comfirm deletion, select Yes...................skipped
+Then varify that all leads deleted..........................................skipped
+And close the browser.......................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
